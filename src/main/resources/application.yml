@@ -2,9 +2,9 @@ spring:
   profiles:
     active: local # ????? ? ?????
     group:
-      local_server: local_server, common, secret
-      blue_server: blue_server, common, secret
-      green_server: green_server, common, secret
+      local: local_server, common, secret
+      blue: blue_server, common, secret
+      green: green_server, common, secret
 # ??? ???? ???? (?? ?? ??? ?????)
 
 ---
