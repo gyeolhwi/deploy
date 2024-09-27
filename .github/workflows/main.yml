@@ -28,8 +28,9 @@ jobs:
           echo "권한 부여 후 메이븐 순차적 작업 clean -> package -> -Dtestskip"
       - name: Build SpringBoot Server
         run: |
-          chomod 700 ./mvnw
+          chmod 700 ./mvnw
           ./mvnw clean package -Dtestskip
+          
       - name: Show Directory
         run: |
           ls -a
