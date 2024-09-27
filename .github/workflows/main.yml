@@ -23,9 +23,6 @@ jobs:
       - name: Show JDK Version
         run: |
           java --version
-      - name: Maven
-        run: |
-          echo "권한 부여 후 메이븐 순차적 작업 clean -> package -> -Dtestskip"
       - name: Build SpringBoot Server
         run: |
           chmod 700 ./mvnw
