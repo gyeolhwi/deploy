@@ -35,8 +35,8 @@ spring:
       on-profile: green_server
 server:
   port: 9090
-  
-# ? ?? ???? ??? ??
+client:
+  address: http://localhost:3000
 ---
 spring:
   config:
